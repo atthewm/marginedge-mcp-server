@@ -13,12 +13,12 @@ Every tool is read only. The server never creates, edits or deletes anything in 
 | `marginedge_api_capabilities` | Which features are available with the current config |
 | `marginedge_list_restaurants` | Restaurant units the API key can see |
 | `marginedge_list_groups` | Restaurant unit groups |
-| `marginedge_list_group_categories` | Categories for a group |
+| `marginedge_list_group_categories` | Higher level classifications for groups |
 | `marginedge_list_orders` | Orders (invoices) in a date range, paginated |
 | `marginedge_get_order` | One order with its line items |
 | `marginedge_list_vendors` | Vendors with account numbers |
 | `marginedge_list_vendor_items` | Items a vendor supplies |
-| `marginedge_get_packaging` | Packaging detail for a vendor item |
+| `marginedge_get_packaging` | Packaging options and unit of measure for a vendor item |
 | `marginedge_list_products` | Products with latest price and category allocations |
 | `marginedge_list_categories` | Accounting categories |
 
